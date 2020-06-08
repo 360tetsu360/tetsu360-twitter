@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'mp-logo';
+    src: url(mp-logo.ttf)
+}
+.header{
+    padding: 20px;
+    height: 80px;
+    background-color: black;
+    border-bottom: 1px solid #333333f5;
+}
+body{
+    background-color: lightcyan;
+}
+.header > .logo{
+    float: left;
+}
+li{
+    list-style: none;
+}
+.header > li{
+    float: left;
+}
+.body{
+    font-family: mp-logo;
+    font-size: 20px;
+}
